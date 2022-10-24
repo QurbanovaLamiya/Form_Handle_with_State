@@ -56,6 +56,10 @@ class Form extends Component {
         successAccount: false,
       });
     }, 4000);
+
+    this.userNameRef.current.value = "";
+    this.userEmailRef.current.value = "";
+    this.userPasswordRef.current.value = "";
   }
 
   render() {
